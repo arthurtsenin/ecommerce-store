@@ -23,7 +23,7 @@ export const IconButton: React.FC<IconButtonProps> = ({
          flex 
          items-center 
          justify-center 
-         bg-white 
+
          border 
          shadow-md 
          p-2 

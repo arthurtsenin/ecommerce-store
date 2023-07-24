@@ -50,10 +50,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
         <div className="opacity-0 group-hover:opacity-100 transition absolute w-full px-6 bottom-5">
           <div className="flex gap-x-6 justify-center">
             <IconButton
+              className=" bg-white"
               onClick={onPreview}
               icon={<Expand size={20} className="text-gray-600" />}
             />
             <IconButton
+              className=" bg-white"
               onClick={onAddToCart}
               icon={<ShoppingCart size={20} className="text-gray-600" />}
             />
